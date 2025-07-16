@@ -1,0 +1,98 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.visitor-section {
+  background: linear-gradient(135deg, #244c38, #1f3b2f);
+  color: white;
+  min-height: 100vh;
+  padding: 40px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+/* Header */
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.back-top {
+  color: #cfcfcf;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.demo-btn {
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+/* Main Content */
+.visitor-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.left-text {
+  flex: 1;
+  min-width: 300px;
+}
+
+.left-text h1 {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+}
+
+.left-text .description {
+  font-size: 1.1rem;
+  color: #d0d0d0;
+  max-width: 500px;
+  margin-bottom: 40px;
+}
+
+.portal-info h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.portal-info p {
+  font-size: 1rem;
+  max-width: 350px;
+  color: #d0d0d0;
+}
+
+/* Arrows */
+.arrows {
+  margin-top: 40px;
+  font-size: 2rem;
+  display: flex;
+  gap: 20px;
+}
+
+/* Image */
+.right-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-image img {
+  max-width: 100%;
+  width: 700px;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+}
